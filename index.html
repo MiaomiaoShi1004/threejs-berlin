@@ -1,0 +1,20 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Three.js Berlin Tile</title>
+  <style>
+    body { margin: 0; overflow: hidden }
+    canvas { display: block }
+  </style>
+</head>
+<body>
+  <canvas id="webglCanvas"></canvas>
+  <script type="module">
+    console.log("🔍 index.html’s module script is running")
+    import { initScene } from './src/main.js'
+    initScene()
+  </script>
+</body>
+</html>
